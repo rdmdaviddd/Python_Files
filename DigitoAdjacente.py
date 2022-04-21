@@ -13,7 +13,7 @@ while (c <= d):#contador
       y = y + 1 #y varia de acordo com a quant. de algarismos do numero de entrada
       c = c + 1
       r = (( n // x ) % 10)# formula de separação dos algarismos
-      if(d>1): #testa pq a função tem pelos menos dois algarismos inseridos para comparação
+      if(d>1): #testa pq a função tem que ter pelos menos dois algarismos inseridos para comparação
              a = 10**y 
              r1 = (( n // a ) % 10)
              
